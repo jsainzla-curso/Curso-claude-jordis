@@ -62,7 +62,7 @@ Sigue las fases **en orden**. No te saltes ninguna ni cambies el orden.
 
 ### Aviso por Slack: plan terminado
 
-Envía un mensaje al canal **`#planes-generales`** usando la herramienta de Slack disponible (busca con `ToolSearch` la consulta `slack`; normalmente algo como `mcp__slack__*send_message` / `post_message`). Contenido:
+Envía un mensaje al canal **`#planes-generales`** (ID `C0C7DQZTYRG`) con la herramienta `mcp__slack__slack_post_message` (cárgala con `ToolSearch` → `select:mcp__slack__slack_post_message`). Contenido:
 
 ```
 📝 Plan listo: <título>
@@ -109,7 +109,7 @@ Reglas:
 
 ### Aviso por Slack: implementación terminada
 
-Envía un mensaje al canal **`#planes-generales`** (salvo que el usuario indique otro canal):
+Envía un mensaje al canal **`#planes-generales`** (ID `C0C7DQZTYRG`) con `mcp__slack__slack_post_message`, salvo que el usuario indique otro canal:
 
 ```
 ✅ Implementación terminada: <título>

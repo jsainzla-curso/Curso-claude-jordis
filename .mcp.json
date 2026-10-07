@@ -6,6 +6,15 @@
       "headers": {
         "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
       }
+    },
+    "slack": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-slack"],
+      "env": {
+        "SLACK_BOT_TOKEN": "${BOT_SLACK_TOKEN}",
+        "SLACK_TEAM_ID": "T0AK4BCBCKT"
+      }
     }
   }
 }

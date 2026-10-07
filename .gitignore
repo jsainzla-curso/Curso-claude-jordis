@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+out-tsc/
+.angular/
+coverage/
+
+# SQLite database
+*.db
+*.db-journal
+*.sqlite
+
+# Environment
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
